@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CLS_GlideImages>
+            <active>true</active>
+            <codePool>community</codePool>
+        </CLS_GlideImages>
+    </modules>
+</config>

@@ -1,0 +1,14 @@
+{
+	"name": "classyllama/glide-images",
+	"type": "magento-module",
+	"description": "Implementation of Glide HTTP-based image manipulation",
+	"require": {
+		"magento-hackathon/magento-composer-installer":"*",
+        "league/glide":"^0.3"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-develop": "0.x-dev"
+		}
+	}
+}

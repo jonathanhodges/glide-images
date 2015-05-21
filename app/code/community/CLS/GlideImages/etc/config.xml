@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   CLS
+ * @package    GlideImages
+ * @copyright  Copyright (c) 2013 Classy Llama Studios, LLC (http://www.classyllama.com)
+ */
+-->
+<config>
+    <modules>
+        <CLS_GlideImages>
+            <version>0.0.1</version>
+        </CLS_GlideImages>
+    </modules>
+
+    <global>
+        <helpers>
+            <cls_glideimages>
+                <class>CLS_Example_Helper</class>
+            </cls_glideimages>
+        </helpers>
+    </global>
+</config>
