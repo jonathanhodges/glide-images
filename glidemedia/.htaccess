@@ -1,8 +1,3 @@
-Options All -Indexes
-<IfModule mod_php5.c>
-php_flag engine 0
-</IfModule>
-
 <IfModule mod_rewrite.c>
 
 ############################################
@@ -10,6 +5,10 @@ php_flag engine 0
 
     Options +FollowSymLinks
     RewriteEngine on
+
+############################################
+## never rewrite for existing files
+    RewriteCond %{REQUEST_FILENAME} !-f
 
 ############################################
 ## rewrite everything else to index.php
