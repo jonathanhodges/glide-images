@@ -1,0 +1,4 @@
+<?php
+
+const CLS_GLIDEIMAGES_COMPOSER_VENDOR_DIR = '../../../autoload.php';
+const CLS_GLIDEIMAGES_SOURCE_DIR = '../../../../htdocs/media';
