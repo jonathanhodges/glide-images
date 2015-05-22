@@ -4,7 +4,7 @@
 	"description": "Implementation of Glide HTTP-based image manipulation",
 	"require": {
 		"magento-hackathon/magento-composer-installer":"*",
-        "symfony/routing":"^3.0",
+        "symfony/routing":"*",
         "league/glide":"^0.3"
 	},
 	"extra": {
